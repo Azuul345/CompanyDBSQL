@@ -21,6 +21,7 @@ namespace CompanyDBSQL.Data
             return company;
         }
 
+        //get
         public async Task<Company> GetCompany(int id)
         {
             return await _context.Companies.FindAsync(id);
@@ -31,6 +32,7 @@ namespace CompanyDBSQL.Data
             return await _context.Companies.ToListAsync();
         }
 
+        //update
         public async Task<Company> UpdateCompany(Company company)
         {
             _context.Companies.Update(company);
@@ -38,7 +40,7 @@ namespace CompanyDBSQL.Data
             return company;
         }
 
-
+        //delete
         public async Task<bool> DeleteCompany(int id)
         {
             var company = await _context.Companies.FindAsync(id);

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36511.14 d17.14
+VisualStudioVersion = 17.14.36511.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyDBSQL", "CompanyDBSQL\CompanyDBSQL.csproj", "{38D826AE-BFF1-4D72-9511-9EB4BC2D7705}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBAdminTools", "DBAdminTools\DBAdminTools.csproj", "{C5C0133A-C2F2-4262-B81B-371DDF49D61F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyAPI", "CompanyAPI\CompanyAPI.csproj", "{438BC4D7-479D-46AA-811E-4F15EE4A6F17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C5C0133A-C2F2-4262-B81B-371DDF49D61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5C0133A-C2F2-4262-B81B-371DDF49D61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5C0133A-C2F2-4262-B81B-371DDF49D61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438BC4D7-479D-46AA-811E-4F15EE4A6F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438BC4D7-479D-46AA-811E-4F15EE4A6F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438BC4D7-479D-46AA-811E-4F15EE4A6F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438BC4D7-479D-46AA-811E-4F15EE4A6F17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
